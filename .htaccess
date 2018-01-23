@@ -1,0 +1,28 @@
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On
+#    RewriteBase /
+
+    # Removes index.php from ExpressionEngine URLs
+#    RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+#    RewriteCond %{REQUEST_URI} !/system/.* [NC]
+#    RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]
+
+    # Directs all EE web requests through the site index file
+#    RewriteCond %{REQUEST_FILENAME} !-f
+#    RewriteCond %{REQUEST_FILENAME} !-d
+#    RewriteRule ^(.*)$ /index.php/$1 [L]
+
+#    RewriteEngine on
+
+        # Rewrite /foo/bar to /foo/bar.php
+#        RewriteRule ^([^.?]+)$ %{REQUEST_URI}.php [L]
+
+        # Return 404 if original request is /foo/bar.php
+ #       RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$"
+  #      RewriteRule .* - [L,R=404]
+
+        # NOTE! FOR APACHE ON WINDOWS: Add [NC] to RewriteCond like this:
+        # RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$" [NC]
+
+
+#</IfModule>

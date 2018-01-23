@@ -1,0 +1,6 @@
+{
+  "autoload": {
+    "psr-4": { "SSFTH\\": ["src/", "../src/", "admin/src/"]
+    }
+  }
+}

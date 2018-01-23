@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Inflictus.com">
+    <serverData>
+      <paths name="Inflictus.com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+            <mapping local="" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/pages/rocket.php" />
+            <excludedPath path="/pages/csgo.php" />
+            <excludedPath path="/pages/league.php" />
+            <excludedPath path="/assets/css/styles.css" />
+            <excludedPath path="/assets/css/league.ts" />
+            <excludedPath path="/assets/css/csgo.css" />
+            <excludedPath path="/assets/css/reset.css" />
+            <excludedPath path="/nbproject" />
+            <excludedPath path="/vendor" />
+            <excludedPath path="/src" />
+            <excludedPath path="/includes" />
+            <excludedPath path="/adminFolder" />
+            <excludedPath path="/handlers" />
+            <excludedPath path="/assets/js/league_script.js" />
+            <excludedPath path="/assets/js/script.js" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
